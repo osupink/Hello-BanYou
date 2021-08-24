@@ -1,0 +1,38 @@
+@media (prefers-color-scheme: light) {
+    #right-news,#left-chat,#right-rank {
+        background-color: rgba(255,255,255,0.7) !important;
+    }
+}
+#left-chat {
+    color:orange;
+    margin-bottom:10px;
+    height:auto;
+    min-height:355px;
+}
+#left-chat p {
+    font-family:initial;
+    word-wrap:break-word;
+}
+#right-rank {
+    color:orange;
+    min-height:231px;
+}
+#right-news {
+    margin-top:20px !important;
+    max-height:200px;
+}
+#right-news h3,#right-rank span {
+    color:orange;
+}
+#right-news p {
+    color:plum;
+    font-family:initial;
+}
+#right-news,#left-chat,#right-rank {
+    margin:2px;
+    border:5px solid lightskyblue;
+    border-radius:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+}

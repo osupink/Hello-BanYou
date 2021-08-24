@@ -1,0 +1,15 @@
+#rank {
+	background-color: rgba(0,0,0,0.9);
+}
+#modeselector {
+	margin-bottom:0.5em;
+}
+.inactive-player {
+	color:red;
+}
+.Supporter,.Supporter>a {
+	color:springgreen;
+}
+.SupportPlayer,.SupportPlayer>a {
+	color:orange;
+}

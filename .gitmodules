@@ -1,0 +1,3 @@
+[submodule "replay"]
+	path = replay
+	url = https://github.com/osupink/BanYou-FullReplayMaker.git

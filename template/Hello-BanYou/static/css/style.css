@@ -1,0 +1,123 @@
+﻿@media (prefers-color-scheme: light) {
+    html,body {
+        background-color: #fff !important;
+    }
+    .navbar-inverse {
+        background-color: #fff !important;
+        border-color: #fff !important;
+    }
+    .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+        color: #000 !important;
+    }
+    #footer, #footer a {
+        color: #000 !important;
+    }
+    .nav-tabs {
+        border-bottom: 1px solid #000 !important;
+    }
+    .nav>li>a:focus, .nav>li>a:hover {
+        background-color: rgba(0,0,0,0.3) !important;
+    }
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+        background-color: rgba(0,0,0,0.3) !important;
+        color: #fff !important;
+    }
+    .panel, .panel-heading {
+        color: #000 !important;
+        background-color: rgba(255,255,255,0.7) !important;
+    }
+    .panel-heading {
+        border-bottom: 1px solid #000 !important;
+    }
+    .panel-default {
+        border-color: #000 !important;
+    }
+    .table>thead>tr>th, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+        border-top: 1px solid #000 !important;
+    }
+    .navbar-inverse .navbar-toggle .icon-bar {
+        background-color: #000 !important;
+    }
+}
+html,body {
+    color: #ddd;
+    /*
+    background-color: #000;
+    */
+    background-color: #000;
+    background-attachment: fixed;
+    background-image: url('https://score.b.osu.pink/random_background.php');
+}
+a {
+    color:#4169e1;
+}
+#right-news, #left-chat, #right-rank {
+    background-color: rgba(0,0,0,0.9);
+}
+.nav-tabs>li>a, .nav-tabs>li>a:focus, .nav-tabs>li>a:hover {
+    color: orange;
+}
+#main-content {
+    padding-left: 28px;
+    padding-right: 28px;
+}
+h2 {
+    color:#1188cc;
+    font-size: 2em;
+    font-weight: 600;
+}
+/*
+h2,h3,p {
+    font-family: 'Exo 2.0';
+}
+*/
+@font-face {
+    font-family:'WebFont';
+    src:url('https://static.b.osu.pink/fonts/WebFont.woff') format('woff'),url('https://static.b.osu.pink/fonts/WebFont.ttf') format('truetype');
+    font-style:normal;
+    font-weight:normal;
+    font-display:swap;
+}
+h2,h3,p,th,.panel-heading {
+    font-family:'WebFont','Exo 2.0';
+}
+nav {
+    font-family:'WebFont';
+}
+.navbar {
+    padding-left:constant(safe-area-inset-left);
+    padding-right:constant(safe-area-inset-right);
+}
+.navbar-brand {
+    font-family:'Exo 2.0';
+}
+p {
+    font-size: 1.2em;
+}
+#topbar {
+    border-radius: 0;
+}
+
+#topbar li:hover {
+    background-color:darkslateblue;
+}
+#footer {
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#footer a {
+    color:#ddd;
+}
+.panel {
+    overflow:auto;
+    border-radius: 20px;
+}
+.panel, .panel-heading {
+    color:#fff;
+    background-color:#000;
+}
+.panel-heading {
+    border-bottom:1px solid #fff;
+}
